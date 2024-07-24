@@ -22,16 +22,20 @@ Ensure you have the following installed on your system:
 
 ### Installation Script
 
-1. Clone the repository:
+1. create a directory:
     ```bash
-    git clone https://github.com/yourusername/devopsfetch.git
-    cd devopsfetch
+    mkdir devops-stage-5
+    cd devops-stage-5
+    create file devopsfetch.sh
+    creat file installsh
     ```
 
 2. Make the installation script executable and run it:
     ```bash
-    chmod +x install.sh
+    sudo chmod +x install.sh
     sudo ./install.sh
+    sudo chmod +x devopsfetch.sh
+    sudo /devopsfetch.sh
     ```
 
 ### Manual Installation
